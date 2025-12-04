@@ -12,6 +12,16 @@ const getExternalDeps = (pkg) => {
 
 export default defineConfig({
   plugins: [react()],
+  // --- NEW TEST CONFIGURATION ADDED HERE ---
+  test: {
+    // Simulates a browser environment so 'document' and 'window' work
+    environment: 'jsdom',
+    // Allows using describe/it/expect without importing them
+    globals: true,
+    // Points to the setup file we created (Make sure src/setupTests.js exists)
+    setupFiles: './src/setupTests.js',
+  },
+  // -----------------------------------------
   build: {
     lib: {
       // Use process.cwd() to get the current working directory for robustness

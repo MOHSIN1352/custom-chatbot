@@ -78,26 +78,23 @@ initialized.Test returns \`true\` confirming system is ready.
 
 Manual check :
 
-![](media/image8.png){width="4.978220691163605in"
-height="2.8015080927384077in"}
+![](media/image8.png)
 
-![](media/image14.png){width="5.019358048993876in"
-height="2.8177088801399823in"}
+![](media/image14.png)
 
 TC-02- Application Rendering
 
 Attempts to render the \`\<App /\>\` component into the virtual DOM. The
 \`document.body\` contains the rendered component.
 
-![](media/image17.png){width="4.770833333333333in"
-height="1.6458333333333333in"}
+![](media/image17.png)
 
 TC-03-Interface Elements
 
 Queries the DOM for a \"Send\" or \"Toggle\" button. At least one button
 element is present in the document.
 
-![](media/image9.png){width="6.5in" height="3.493781714785652in"}
+![](media/image9.png)
 
 TC-04-Chat Interface Visibility
 
@@ -130,41 +127,36 @@ Component renders with custom props without crashing.
 Adding custom properties : as an npm package u can successfully
 integrate it in the project and use it
 
-![](media/image11.png){width="4.473958880139983in"
-height="2.5166010498687665in"}
+![](media/image11.png)
 
-![](media/image16.png){width="4.638888888888889in"
-height="2.6093755468066493in"}
+![](media/image16.png)
 
 TC-08-Toggle Logic
 
 Simulates clicking the floating icon to Open/Close chat.Chat window
 toggles state (Visible ↔ Hidden).
 
-![](media/image12.png){width="6.5in" height="3.508571741032371in"}
+![](media/image16.png)
 
 TC-09-Message Flow
 
 Types text and clicks send to verify full cycle.The typed message
 appears in the chat history list.
 
-![](media/image7.png){width="5.526042213473316in"
-height="2.9755610236220473in"}
+![](media/image7.png)
 
 TC-10-Input Cleaning
 
 Checks the input box state after sending a message.Input box
 automatically clears (becomes empty).
 
-![](media/image4.png){width="5.880775371828522in"
-height="3.3072090988626424in"}
+![](media/image4.png)
 
 TC-11-Waits asynchronously for the bot to respond
 
 A new message bubble (the reply) appears in the DOM.
 
-![](media/image4.png){width="5.880775371828522in"
-height="3.3072090988626424in"}
+![](media/image4.png)
 
 TC-12- File Upload
 
@@ -173,31 +165,27 @@ Click the paperclip icon. Select an image file from your computer.
 A small preview of the image appears above the input box or inside the
 message bubble after sending.
 
-![](media/image13.png){width="5.557292213473316in"
-height="2.974575678040245in"}
+![](media/image13.png)
 
-![](media/image10.png){width="5.688308180227471in"
-height="3.2031255468066493in"}
+![](media/image10.png)
 
 TC-13 - Voice Input
 
 The microphone icon changes state (e.g., pulses or turns red), and your
 spoken text appears in the input box.
 
-![](media/image1.png){width="5.776042213473316in"
-height="3.2490234033245846in"}
+![](media/image1.png)
 
 TC-14 - Markdown
 
 Check if the welcome message has **Bold** text that looks thicker than
 normal text.
 
-![](media/image3.png){width="5.765625546806649in"
-height="3.243163823272091in"}
+![](media/image3.png)
 
 **Vitest ui check :**
 
-![](media/image5.png){width="6.5in" height="3.6527777777777777in"}
+![](media/image5.png)
 
 **3.1 Execution Output**
 

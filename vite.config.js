@@ -19,7 +19,7 @@ export default defineConfig({
     // Allows using describe/it/expect without importing them
     globals: true,
     // Points to the setup file we created (Make sure src/setupTests.js exists)
-    setupFiles: './src/setupTests.js',
+    setupFiles: './tests/setupTests.js',
   },
   // -----------------------------------------
   build: {
